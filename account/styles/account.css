@@ -173,10 +173,6 @@ body {
             flex-direction: column;
     gap: 10px;
   } 
-  a[href] {
-        font-size: 20px;
-        margin: 0 15px;
-    }
     
 }
 

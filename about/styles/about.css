@@ -1,9 +1,4 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
+
 
 a{
 	text-decoration: none;
@@ -175,12 +170,12 @@ h2 {
         top: 0;
         right: 0;  
     }
-    a[href] {
-        font-size: 20px;
-        margin: 0 15px;
-    }
-        
-        
+      nav a {
+    font-size: 18px;
+    margin: 0 10px;
+    gap: 5px;
+  }
+   
     
 }
 

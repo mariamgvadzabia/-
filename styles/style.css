@@ -56,6 +56,12 @@ body {
     opacity: 1;
 }
 
+header h1 {
+  font-size: 40px;
+  margin: 0;
+  color: #fff;
+  text-shadow: 2px 2px #d63384;
+}
 a{
 	text-decoration: none;
 	font-weight: 700;
@@ -72,14 +78,6 @@ a{
 nav,ul,li{
 	display: inline-block;
 }
-
-header h1 {
-  font-size: 40px;
-  margin: 0;
-  color: #fff;
-  text-shadow: 2px 2px #d63384;
-}
-
 nav {
   margin-top: 10px;
 }
@@ -291,7 +289,7 @@ header {
         -ms-transform: translate(-40%, -115%);
             transform: translate(-40%, -115%);
     position: relative;
-    margin-top: 20px;
+    margin-top: 80px;
   }
 
   .lamazi {
@@ -327,16 +325,6 @@ header {
     margin-top: 30px;
   }
 
-  header {
-    width: 100%;
-    height: auto;
-    -webkit-transform: none;
-        -ms-transform: none;
-            transform: none;
-    margin-top: 30px;
-    background-color: #F7D3E0;
-  }
-
   .end, .dam {
     -webkit-transform: none;
         -ms-transform: none;
@@ -367,6 +355,40 @@ header {
         -ms-transform: translate(-35%, 140%);
             transform: translate(-35%, 140%);
   }
+  header {
+    width: 90%;
+    height: 100px;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+    padding: 20px;
+    text-align: center;
+  }
+  .end {
+    font-size: 15px;
+    margin-top: -150px;
+    margin-right: 250px;
+    align-self: flex-start;  
+  }
+   .dam {
+    font-size: 15px;
+    margin-top: -130px;
+    margin-right: 0px;
+    align-self: flex-start;  
+  }
+  .social {
+    font-size: 25px;
+    margin-top: -80px;
+    margin-right: -1700px;
+    align-self: flex-start;  
+  }
+  .logo {
+    font-size: 25px;
+    margin-top: -140px;
+    margin-right: -300px;
+    align-self: flex-start;  
+  }
+
 }
 
 
