@@ -1,0 +1,190 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+a{
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 24px;
+	color:black;
+	margin: 0 30px;
+	display: inline-block;
+}
+
+#active {
+    color: #e35cb6;
+}
+nav,ul,li{
+	display: inline-block;
+}
+header h1 {
+  font-size: 40px;
+  margin: 0;
+  color: #fff;
+  text-shadow: 2px 2px #d63384;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  background: #d63384;
+  padding: 8px 15px;
+  border-radius: 20px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background: #fff;
+  color: #d63384;
+  border: 1px solid #d63384;
+}
+.image {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+h2 {
+     font-family: "Great Vibes", cursive;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 39px;
+      color: black;
+      margin-top: 40px;
+}
+
+.ss {
+      font-size: 33px;
+      line-height: 1.6;
+      max-width: 600px;
+      margin-top: 35px;
+      color: #b04c78;
+      font-family: "Great Vibes", cursive;
+     font-weight: 400;
+     font-style: normal;
+     text-align: left;
+}
+.image2{
+    margin-top: 35px;
+    width: 700px;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    border-radius: 20px;
+    position: absolute;
+    top: 800px;
+    right: 20px;
+
+}
+.image3 {
+    width: 50%;
+    height: 50%;
+}
+.sss {
+      font-size: 33px;
+      line-height: 1.6;
+      max-width: 600px;
+      margin-top: 35px;
+      color: #b04c78;
+      font-family: "Great Vibes", cursive;
+     font-weight: 400;
+     font-style: normal;
+     text-align: left;
+     margin-top: 1000px;
+    width: 700px;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    border-radius: 20px;
+    position: absolute;
+    top: 800px;
+    right: 20px;
+}
+.mm{
+     font-family: "Great Vibes", cursive;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 39px;
+     color: black;
+     margin-top: 950px;
+    width: 700px;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    border-radius: 20px;
+    position: absolute;
+    top: 800px;
+    right: 20px;
+
+}
+.image4{
+    margin-top: 1300px;
+    width: 700px;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    border-radius: 20px;
+    position: absolute;
+    top: 800px;
+    right: 20px;
+}
+@media screen and (max-width: 768px) {
+    .image2, .image3, .image4 {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .sss, .mm {
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+        top: 0;
+    }
+    .ss {
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+        top: 0;
+    }
+    h2 {
+        font-size: 30px;
+        text-align: center;     
+    }
+    .image4 {
+        margin-top: 0;
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .image2 {
+        margin-top: 0;
+        position: relative;
+        top: 0;
+        right: 0;  
+    }
+    a[href] {
+        font-size: 20px;
+        margin: 0 15px;
+    }
+        
+        
+    
+}
+
+
+
+
+
